@@ -1,0 +1,22 @@
+.loader-container {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .loader-container {
+    height: 80vh; 
+  }
+} 
+
+@media (max-width: 480px) {
+  .loader-container {
+    height: 60vh; 
+  }
+
+  .loader {
+    width: 80px; 
+    height: 80px; 
+  }
+}
